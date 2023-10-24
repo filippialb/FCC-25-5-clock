@@ -76,7 +76,7 @@ function breakTime(){
                 timerStatus = "begin";
                 cronometerRun();
             }
-        }, 200); //update every 1000 miliseconds
+        }, 1000); //update every 1000 miliseconds
     } else if (timerStatus === "breakCounting"){
         timerStatus = "stopped";
         clearInterval(timer);
